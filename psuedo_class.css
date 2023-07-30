@@ -1,0 +1,46 @@
+.h1
+{
+	border-style:solid none;
+	position:fixed;
+	padding:center;
+	height:10%;
+	width:100%;
+}
+.div1
+{
+  background-color:grey;
+  display:inline-block;
+	padding:center;
+  color:white;
+  border-style:solid;
+  border-color:black;
+ 
+  margin-top:10%;
+}
+
+.div2
+{
+  background-color:grey;
+  display:block;
+	padding:center;
+  color:white;
+  border-style:solid;
+  border-color:black;
+  width:50px;
+margin-top:10%;
+}
+.e
+{
+	height:20px;
+	width:100%;
+	border-style:solid;
+	margin-top:10%;
+}
+.d
+{
+	height:500px;
+	width:50px;
+	border-style:solid;
+	margin-top:10%;
+}
+

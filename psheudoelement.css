@@ -1,0 +1,86 @@
+h1::before
+{
+	content:url("hj.png");
+}
+p[class="p1"]:first-letter
+{
+	color:red;
+	font-size:4em;
+}
+p[class="p2"]:first-line
+{
+	color:purple;
+	text-transform:uppercase;
+}
+.d1
+{
+	height:100px;
+	width:150px;
+	border-style:none solid none none;
+}
+.d2
+{
+	height:100px;
+	width:100px;
+	position:relative;
+	left:200px;
+	bottom:120px;
+	
+}
+.l2
+{
+	list-style-image:url("hj.png");
+}
+.l1
+{
+	list-style-type:disclosure-closed;
+}
+ul li::marker
+{
+	color:green;
+	
+
+}
+div[class *="grid"]
+{
+	background-color:yellow;
+	height:100px;
+	width:100px;
+	border:5px solid aqua;
+}
+div[class $="cir"]
+{
+  border-radius:50px;
+  margin-left:60px;
+  float:left;
+}
+div[class $="rect"]
+{
+  width:150px;
+}
+.box-grid-rect
+{
+	float:left;
+	margin-left:30px;
+	
+}
+.dt
+{
+	clear:left;
+	
+}
+span
+{
+	text-decoration:underline;
+	color:green;
+	cursor:help;
+	position:relative;
+}
+span:hover::after
+{
+	content:attr(data-abc);
+	position:absolute;
+	left:0px;
+	top:100%;
+	color:red;
+}

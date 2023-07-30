@@ -1,0 +1,15 @@
+div
+{
+	height:2000px;
+   width:1000px;
+}
+.div1
+{
+   height:100px;
+   width:200px;
+   margin:10px;
+   padding:20px;
+   outlline-width:2px;
+   outline-offset:10px;
+   
+}
